@@ -1,0 +1,30 @@
+name: Feature request
+description: 提议与 BAT/CMD 打包和托盘运行相关的新功能
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+      description: 请先描述工作流中的真实问题，而不是只给出实现方式。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 已考虑的替代方案
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 范围确认
+      options:
+        - label: 该需求不涉及脚本加密、杀毒规避、权限绕过或隐蔽持久化。
+          required: true
