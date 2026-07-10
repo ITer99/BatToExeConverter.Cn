@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-07-10
+
 ### Added
 
 - Maintainable .NET 9 WinForms source under `src/BatToExeConverter.Cn/`.
@@ -30,3 +32,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Tray exit now terminates child services instead of closing only the tray wrapper.
 - External documentation links are no longer mistaken for the local application home page.
 - Generated programs no longer overwrite one fixed hidden runtime script file.
+
+[Unreleased]: https://github.com/ITer99/BatToExeConverter.Cn/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ITer99/BatToExeConverter.Cn/releases/tag/v0.1.0
